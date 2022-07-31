@@ -1,0 +1,124 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Northanger Abbey",
+      "author": "Austen, Jane",
+      "publication": 1814,
+      "edition": "Penguin"
+    
+    },
+    {
+      "id": 2,
+      "title": "War and Peace",
+      "author": "Tolstoy, Leo",
+      "publication": 1865,
+      "edition": "Penguin"
+    
+    },
+    {
+      "id": 3,
+      "title": "Anna Karenina",
+      "author": "Tolstoy, Leo",
+      "publication": 1875,
+      "edition": "Penguin"
+    
+    },
+    {
+      "id": 4,
+      "title": "Mrs. Dalloway",
+      "author": "Woolf, Virginia",
+      "publication": 1925,
+      "edition": "Harcourt Brace"
+
+    },
+    {
+      "id": 5,
+      "title": "The Hours",
+      "author": "Cunnningham, Michael",
+      "publication": 1999,
+      "edition": "Harcourt Brace"
+      
+    },
+    {
+      "id": 6,
+      "title": "Huckleberry Finn",
+      "author": "Twain, Mark",
+      "publication": 1865,
+      "edition": "Penguin"
+    
+    },
+    {
+      "id": 7,
+      "title": "Bleak House",
+      "author": "Dickens, Charles",
+      "publication": 1870,
+      "edition": "Random House"
+    
+    },
+    {
+      "id": 8,
+      "title": "Tom Sawyer",
+      "author": "Twain, Mark",
+      "publication": 1862,
+      "edition": "Random House"
+    
+    },
+    {
+      "id": 9,
+      "title": "A Room of One's Own",
+      "author": "Woolf, Virginia",
+      "publication": 1922,
+      "edition": "Penguin"
+
+    },
+    {
+      "id": 10,
+      "title": "Harry Potter",
+      "author": "Rowling, J.K.",
+      "publication": 2000,
+      "edition": "Harcourt Brace"
+      
+    },
+    {
+      "id": 11,
+      "title": "One Hundred Years of Solitude",
+      "author": "Marquez",
+      "publication": 1967,
+      "edition": "Harper  Perennial"
+
+    },
+    {
+      "id": 12,
+      "title": "Hamlet, Prince of Denmark",
+      "author": "Shakespeare",
+      "publication": 1603,
+      "edition": "Signet  Classics"
+    
+    },
+    {
+      "id": 13,
+      "title": "Lord of the Rings",
+      "author": "Tolkien, J.R.",
+      "publication": 1937,
+      "edition": "Penguin"
+      
+    },
+    {
+      "title": "bookTitle",
+      "author": "bookAuthor",
+      "publication": "1978",
+      "edition": "Penguin",
+      
+      "id": 14
+    },
+    {
+      "title": "randomBook",
+      "author": "anonymous",
+      "publication": "unknown",
+      "edition": "unknown",
+      
+      "id": 15
+    }
+  ]
+}
