@@ -1,18 +1,11 @@
-
-Table of Content
-Description
-Features
-Live Link
-Technology 
-Licence
-Authors Info
+README.MD
+ Contents
 
 Description
 A Simple React.js CRUD Application to consume Web API hosted over on Heroku, display and modify data with React Router DOM, fetch for the CRUD Operations for that minimal Design with the front-end hosted on Heroku.
 
-This React Application allows the user to perform the following: 1. Add book 2. Update Book 3. Delete Book 4. View Book
+This React Application allows the user to perform the following: * Add book * Update Book * Delete Book * View Book
 
-Go Back to the top
 
 Features
 As a user of the website,you will be able to :
