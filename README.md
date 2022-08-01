@@ -1,6 +1,4 @@
 
-By Janet
-
 Table of Content
 Description
 Features
@@ -26,8 +24,9 @@ Access to a computer or any other gadget
 Access to internet
 Installation Process
 Clone to the repo : git@github.com:jann88/phase-2project.git
+
 Unzip the downloaded files in a folder of choice.
-Go Back to the top
+
 
 Live Link
 Click this link to view the live application: https://my-bookhub.herokuapp.com/
@@ -39,8 +38,11 @@ Licence
 MIT License Copyright (c) [2022] [Janet]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files, to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. 
+
+
 Design architecture
 https://www.figma.com/file/RPZujPTEhKP9PABIQdfJWd/Untitled?node-id=3%3A3
+
 
 Blog link
 https://dev.to/jann88/building-a-bookhub-with-reactjs-1n3
