@@ -4,9 +4,9 @@ import './styles/Context.css'
 
 function Context({ books, setBooks }) {
 
-  
+
   useEffect(() => {
-    fetch("http://localhost:3001/books")
+    fetch("https://my-bookhub-backend.herokuapp.com/books")
       .then((response) => response.json())
       .then((data) => {
         return (
@@ -19,38 +19,38 @@ function Context({ books, setBooks }) {
   return (
     <div className="contextcontainer">
       <div className="sidebar">
-     <table> 
-     
-      <thead>
-      <tr>
-          <th>Title</th>
-          <th>Author</th>
-          <th>Publication</th>
-          <th>Edition</th>
-          <th>Price</th>
-        </tr>
-      </thead>
-      
+        <table>
 
-      <tbody>
-      {books.map((book, i) => (
-      
-          
-            <BookDetails 
-            key={book.id || i}
-            title={book.title}
-            author={book.author}
-            publication={book.publication}
-            edition={book.edition}
-            price={book.price} />
-           
-            
-         
-      ))
-      }
-      </tbody>
-      </table>
-    </div>
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th>Author</th>
+              <th>Publication</th>
+              <th>Edition</th>
+              <th>Price</th>
+            </tr>
+          </thead>
+
+
+          <tbody>
+            {books.map((book, i) => (
+              <tr>
+                 <BookDetails
+                key={book.id || i}
+                title={book.title}
+                author={book.author}
+                publication={book.publication}
+                edition={book.edition}
+                price={book.price} />
+              </tr>
+
+             
+
+            ))
+            }
+          </tbody>
+        </table>
+      </div>
     </div>
   )
 

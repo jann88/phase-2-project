@@ -10,7 +10,7 @@ const AddBook = () => {
     })
     const handleSubmit = (e) => {
         e.preventDefault()
-        fetch(`http://localhost:3001/books/`, {
+        fetch(`https://my-bookhub-backend.herokuapp.com/books`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
