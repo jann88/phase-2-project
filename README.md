@@ -27,9 +27,13 @@ Clone to the repo : git@github.com:jann88/phase-2project.git
 Unzip the downloaded files in a folder of choice.
 
 
-Live Link
-Click this link to view the live application: 
 
+Click this link to view the live application: 
+Github  Live Link:
+
+https://jann88.github.io/phase-2project/
+
+Heroku Live LInk
 https://my-bookhub.herokuapp.com/
 
 Technology Used
