@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
 
-.header-content {
+/* .header-content {
 
     text-align:right;
     text-align: right;
@@ -10,7 +10,7 @@
     scroll-margin-right: auto;
     
     flex-direction: column;
-}
+} */
 .header-title{
     font-size: 3.2rem;
 }

@@ -38,7 +38,7 @@ return(
 <div className='nav_right d-flex align-items-center gap-'>
   <button className='btn'>
     <span className='mobile-menu'>
-      <i class="ri-menu-5-line"></i>
+      <i className="ri-menu-5-line"></i>
     </span>
   </button>
 </div>

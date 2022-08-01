@@ -1,5 +1,6 @@
 import React from 'react';
-// import './aboutImg.png';
+ 
+
 
 const About = () => {
   return (
@@ -12,7 +13,7 @@ const About = () => {
             </div>
             <div className='about-content grid'>
               <div className='about-image'>
-                {/* <img src={aboutImg}alt = "aboutimage"/> */}
+                <img src={'./src/aboutImg.jpg'}alt = "aboutimage"/>
               </div>
             </div>
           </container>

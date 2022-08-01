@@ -13,7 +13,7 @@ const SearchForm = ({ setBooks }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    fetch("http://localhost:3001/books")
+    fetch("https://my-bookhub-backend.herokuapp.com/books")
       .then((response) => response.json())
       .then((data) =>{
         if(data){

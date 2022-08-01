@@ -36,7 +36,7 @@ html{
   align-items: center;
   position: relative;
 }
-.header::before{
+/* .header::before{
   content: "";
   position: absolute;
   top:0;
@@ -46,7 +46,7 @@ html{
   background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
   clip-path: circle(60% at left 300px);
   z-index: -1;
-}
+} */
 .row2{
   position: absolute;
   top:10px;

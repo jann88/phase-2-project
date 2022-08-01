@@ -38,19 +38,21 @@ import './styles/BookDetails.css'
 
     return(
      
-        <div>
-          <table>
-  
-        <tcol-col><td>{title}</td></tcol-col>
-        <tcol><td>{author}</td></tcol>
-        <tcol><td>{publication}</td></tcol>
-        <tcol><td>{edition}</td></tcol>
-        <tcol><td>{price}</td></tcol>
+        <tr>
+        <td>{title}</td>
+        <td>{author}</td>
+        <td>{publication}</td>
+        <td>{edition}</td>
+        <td>{price}</td>
    
         <button>🗑</button>
       
-      </table>
-      </div>
+      
+        </tr>
+          
+  
+       
+      
        
 );
    

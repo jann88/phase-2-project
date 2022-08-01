@@ -18,10 +18,10 @@ function Context({ books, setBooks }) {
 
   return (
     <div className="contextcontainer">
-      <div className="sidebar">
-        <table>
+      
+        
 
-          <thead>
+          
             <tr>
               <th>Title</th>
               <th>Author</th>
@@ -29,12 +29,12 @@ function Context({ books, setBooks }) {
               <th>Edition</th>
               <th>Price</th>
             </tr>
-          </thead>
+          
 
 
-          <tbody>
+          
             {books.map((book, i) => (
-              <tr>
+              
                  <BookDetails
                 key={book.id || i}
                 title={book.title}
@@ -42,16 +42,16 @@ function Context({ books, setBooks }) {
                 publication={book.publication}
                 edition={book.edition}
                 price={book.price} />
-              </tr>
+              
 
              
 
             ))
             }
-          </tbody>
-        </table>
+          
+        
       </div>
-    </div>
+    
   )
 
 
