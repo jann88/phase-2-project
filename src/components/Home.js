@@ -1,13 +1,21 @@
-import React from 'react'
-import Header from './Header';
+import React, { useState } from 'react'
 import Context from './Context';
+import BookDetails from './BookDetails';
+import AddBook from './AddBook';
+import SearchForm from './SearchForm';
+
+
 
 
 function Home() {
+  const [books, setBooks] = useState([]);
   return (
     <div>
-        <Header/>
-        <Context/>
+      <SearchForm setBooks={setBooks}/>
+        <BookDetails/>
+        <Context setBooks={setBooks}
+        books={books}/>
+        <AddBook/>
     </div>
   )
 }

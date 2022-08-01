@@ -1,29 +1,30 @@
-import React, { useState} from 'react';
+import React from 'react';
 import './App.css';
-import SearchForm from './components/SearchForm'
+import Home from './components/Home';
+import About from './components/About';
 import Navbar from './components/Navbar';
-import BookDetails from './components/BookDetails';
-import Context from './components/Context';
-import AddBook from './components/AddBook';
-import Header from './components/Header';
+import { Route, Switch } from 'react-router-dom';
 
 function App() {
-  const [books, setBooks] = useState([]);
+  
 
   
   
   return (
-
     <div>
-      <Navbar/>
-      <SearchForm setBooks={setBooks}/>
-    {/* <Home/>   */}
-    <div className='body'>
-      <BookDetails />
-      <Context books={books} setBooks={setBooks}/>
-      <AddBook/>
-    </div>
-    </div>
+    <Navbar/>
+   <Switch>
+   <Route path="/" >
+    <Home/>
+    </Route>
+    <Route path="/about">
+      <About/>
+    </Route>
+    {/* <Route  exact path="/" element={<Home/>}/>
+    <Route  exact path="/about" element={<About/>}/> */}
+   </Switch>
+   </div>
+    
    )
 
 }

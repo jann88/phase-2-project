@@ -8,18 +8,19 @@
     z-index:1;
 
 } */
-.h2{
-    font: size 5.5rem;
+.title>h2{
+    font-size:  5.5rem;
     color: blue;
+    
  }
-.nav_list{
+.nav-list{
     display: flex;
     align-items: center;
     column-gap: 2.7rem;
     text-decoration: none;
 
 }
-.nav__item a{
+.nav-item a{
     color: aliceblue;
     transition:0.3s;
     text-decoration: none;
@@ -53,10 +54,10 @@ box-shadow: 2px 2px  4px -2px #7765ffbd;
 
 
 
-@media screen and (min-width: 992px){
+/* @media screen and (min-width: 992px){
     .navbar-collapse{
         position: relative;
-        height: auto;
+        height: 100%;
         padding: 0;
         width: 100%;
         background-color: transparent;
@@ -79,4 +80,4 @@ box-shadow: 2px 2px  4px -2px #7765ffbd;
     .navbar-nav{
         display: flex;
     }
-}
+} */

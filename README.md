@@ -1,70 +1,50 @@
-# phase-2project# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+By Janet
 
-## Available Scripts
+Table of Content
+Description
+Features
+Live Link
+Technology 
+Licence
+Authors Info
 
-In the project directory, you can run:
+Description
+A Simple React.js CRUD Application to consume Web API hosted over on Heroku, display and modify data with React Router DOM, fetch for the CRUD Operations for that minimal Design with the front-end hosted on Heroku.
 
-### `npm start`
+This React Application allows the user to perform the following: 1. Add book 2. Update Book 3. Delete Book 4. View Book
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Go Back to the top
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Features
+As a user of the website,you will be able to :
 
-### `npm test`
+Interact with the navigation implemented with React Router DOM
+Allow the user to perform all the CRUD operations
+Requirements
+Access to a computer or any other gadget
+Access to internet
+Installation Process
+Clone to the repo : git@github.com:jann88/phase-2project.git
+Unzip the downloaded files in a folder of choice.
+Go Back to the top
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Live Link
+Click this link to view the live application: https://my-bookhub.herokuapp.com/
+Technology Used
+HTML - The Markup language was used in building the base structure of the webpage.
+CSS - which was used to style the HTML structure 
+JavaScript - Mostly used to dynamically render the books to DOM fetch data from the API and also improve interactivity with on the website for the user Go Back to the top
+Licence
+MIT License Copyright (c) [2022] [Janet]
 
-### `npm run build`
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files, to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. 
+Design architecture
+https://www.figma.com/file/RPZujPTEhKP9PABIQdfJWd/Untitled?node-id=3%3A3
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Blog link
+https://dev.to/jann88/building-a-bookhub-with-reactjs-1n3
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Authors Info
+Linkedin - Janet(Ngei)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

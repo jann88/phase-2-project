@@ -9,9 +9,11 @@ function Context({ books, setBooks }) {
     fetch("https://my-bookhub-backend.herokuapp.com/books")
       .then((response) => response.json())
       .then((data) => {
-        return (
+       
           setBooks(data)
-        )
+          console.log(data)
+      
+
       })
       .catch((error) => console.log(error));
   }, [])
@@ -33,15 +35,15 @@ function Context({ books, setBooks }) {
 
 
           
-            {books.map((book, i) => (
+            {books?.map((book, i) => (
               
                  <BookDetails
-                key={book.id || i}
-                title={book.title}
-                author={book.author}
-                publication={book.publication}
-                edition={book.edition}
-                price={book.price} />
+                key={book?.id || i}
+                title={book?.title}
+                author={book?.author}
+                publication={book?.publication}
+                edition={book?.edition}
+                price={book?.price} />
               
 
              
