@@ -1,10 +1,10 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import BookDetails from "./BookDetails";
 import './styles/Context.css'
 
 function Context({ books, setBooks }) {
 
-
+  const [change, setChange] = useState('')
   useEffect(() => {
     fetch("https://my-bookhub-backend.herokuapp.com/books")
       .then((response) => response.json())
@@ -16,10 +16,10 @@ function Context({ books, setBooks }) {
 
       })
       .catch((error) => console.log(error));
-  }, [])
+  }, [change])
 
   return (
-    <div className="contextcontainer">
+    <div className="container-fluid">
       
         
 
@@ -29,7 +29,7 @@ function Context({ books, setBooks }) {
               <th>Author</th>
               <th>Publication</th>
               <th>Edition</th>
-              <th>Price</th>
+
             </tr>
           
 
@@ -43,7 +43,9 @@ function Context({ books, setBooks }) {
                 author={book?.author}
                 publication={book?.publication}
                 edition={book?.edition}
-                price={book?.price} />
+            
+                id={book?.id || i } 
+                setChange={setChange} />
               
 
              

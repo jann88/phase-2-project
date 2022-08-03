@@ -1,4 +1,5 @@
 import React from 'react';
+
  
 
 
@@ -7,17 +8,22 @@ const About = () => {
     
       <section>
         <div className='about'>
-          <container className='container'>
+          
             <div className='section-title'>
               <h2>About</h2>
             </div>
             <div className='about-content grid'>
-              <div className='about-image'>
-                <img src={'./src/aboutImg.jpg'}alt = "aboutimage"/>
+              <p>The more that you read, the more things you will know. ...
+                  Books are a uniquely portable magic.
+                  A reader lives a thousand lives before he dies, said Jojen. ...
+                  Until I feared I would lose it, I never loved to read. ...
+                  Reading one book is like eating one potato chip.”</p>
+              
+                
               </div>
             </div>
-          </container>
-        </div>
+          
+      
 
       </section>
     

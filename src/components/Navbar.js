@@ -4,45 +4,31 @@ import './styles/Navbar.css';
 import Header from './Header';
 import About from './About';
 import Home from './Home';
+import AddBook from './AddBook';
 
 
 function    Navbar() {
-const NavLinks = [
-  {
-    display:'Home',
-    url: '#home'
-  },
-  {
-    display:'About',
-    url:'#About'
-  }
-]
-return(
-  <header className='header'>
 
-  <div className='navigation d-flex align-items-center justify-content-between'>
-<div className='title'>
-  <h2>BOOK HUB</h2>
-</div>
-<div>
- 
-        
+  return(
+    
+    // <nav className="navbar m bg-light justify-content-center">
+    <nav className="navbar navbar-expand-sm bg-light navbar-dark">
+      <div className='container fluid'>
+      <div className='navbar'>
+        <Header/>
+        <div className='links'>
         <Link to='/' element={<Home/>}>Home</Link>
-        <Link to='/about' element={<About/>}>About</Link>
-       
-
-</div>
-{/* <div className='nav_right d-flex align-items-center gap-'>
-  <button className='btn'>
-    <span className='mobile-menu'>
-      <i className="ri-menu-5-line"></i>
-    </span>
-  </button> */}
-</div>
   
+   
+        <Link to='/about' element={<About/>}>About</Link>
+  
+    
+        <Link to='/addbook' element={<AddBook/>}>AddBook</Link>
 
-  </header>
+        </div>
+        </div>
+  </div>
+</nav>
 )
 }
-
 export default Navbar;

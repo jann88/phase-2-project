@@ -1,61 +1,59 @@
-import React, { useState } from "react";
-import './styles/BookDetails.css'
- const BookDetails = ({title, author, publication, edition, price}) => {
-// const [read, setIsRead] = useState(false)
-// const [favBook, setFavBook] = useState(false)
-// function checkRead(){
-//   setIsRead(!read)
-  
-// }
-// function onClickAdd(id,title,author,publication, edition)
-// let BookDetails = {id,title,author,publication,edition}
-// setFavBook(true)}
-// handleFavBook(BookDetails)
+import React, { Fragment,useState} from "react";
 
-// function handleDeleteClick(id) {
-//   fetch(`http://localhost:3001/books${id}`, {
-//     method: "DELETE",
-//   })
-//     .then((r) => r.json())
-//     .then(() => onDeleteBookDetails(id));
-// }
-      
-// function onDeleteFavBook(id){
-//   setFavBook(!favBook)
-//   handleRemoveFav(id)
-//   const btn =
-//     <>
-// <button style={{textDecorationLine:favBook?'line-through':''}} onClick={checkRead}>{inner ? "Mark as unread":"Mark as read"}</button>
-//       <button
-//         style={{ margin: "5px", background: "tomato" }}
-//         onClick={() => handleDeleteClick(id)}
-//       >Delete</button>
-//       <button
-//       onClick={()=>favBook ? onDelFavBook(id):onClickAdd(id,title,author,content)}
-//         style={{ margin: "5px", background: "aqua" }}
-//       >{favBook?'Remove From Favourite':'Add Favourite'}</button>
-// </>
+ const BookDetails = ({title, author, publication, edition, id }) => {
+
+    function deleteElem(e){
+        fetch(`https://my-bookhub-backend.herokuapp.com/books/${id}`,{
+            method: 'DELETE',
+            headers: {
+                "Content-Type": "application/json"
+            }
+        })
+        .then(r=>r.json())
+        .then(data=>console.log(data))
+        .catch(err=>console.log(err))
+        alert('You\'re delete has been successful')
+
+    }
+    
+
+
+    
+
+    const [isRead, setIsRead] = useState((false))
+        
+        function markRead({}){
+            
+            setIsRead(!isRead)
+
+        }
+    
+
+            
 
     return(
-     
-        <tr>
-        <td>{title}</td>
-        <td>{author}</td>
-        <td>{publication}</td>
-        <td>{edition}</td>
-        <td>{price}</td>
-   
-        <button>🗑</button>
-      
-      
-        </tr>
+        <Fragment>
+            <tr id={id}>
+            
+                <td>{title}</td>
+                <td>{author}</td>
+                <td>{publication}</td>
+                <td>{edition}</td>
           
-  
-       
-      
-       
-);
-   
-          };
+            </tr>
+            
 
+
+
+            
+             <button onClick={markRead} type="button"  className="btn btn-success btn-xsm" >{isRead ? "READ": "UNREAD"}</button>
+            <button id={id} onClick={deleteElem} type="button" className=" btn-danger btn-xsm">🗑</button>
+            
+           
+        
+            </Fragment>
+    )
+          
+   };
+ 
 export default BookDetails;

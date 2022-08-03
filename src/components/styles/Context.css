@@ -1,15 +1,17 @@
-.Context-container {
-    background-color: blueviolet;
-    display: inline;
-    text-align: center;
-    position: absolute;
-    box-sizing: content-box;
+.container {
+  position: absolute;
+  height: auto;
+  margin: auto;
+  top: 100;
+  left: 100;
+  width: 600px;
+  text-align: center;
     
     }
     .table-tr
     {
-    height: 500px;
-    margin: 800px;
+    height: auto;
+    margin: auto;
     padding-inline: 30px; 
     border: 2px solid powderblue;
     margin: 50px;

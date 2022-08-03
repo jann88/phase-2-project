@@ -1,20 +1,16 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-/* .header-content {
+.header-content {
+    text-align: center;
+    margin-top: 10%;
+}
 
-    text-align:right;
-    text-align: right;
-    margin-top: 0%;
-    margin-left: auto;
-    scroll-margin-right: auto;
-    
-    flex-direction: column;
-} */
-.header-title{
+.header-title {
     font-size: 3.2rem;
 }
-.header-text{
+
+.header-text {
     margin-top: -1.8rem;
     margin-bottom: 2.8rem;
     opacity: 0.8;
