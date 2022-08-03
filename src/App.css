@@ -1,45 +1,49 @@
-@import 'bootstrap/dist/css/bootstrap.min.css';
-tr{
-  
-}
-th {
-  box-sizing: auto;
-  margin: auto;
-  height: auto;
-  color: white;
-  background-color: mediumseagreen;
-  background-position: 0%;
-  font-weight: bold;
-  text-align:center;
-  
+ @import 'bootstrap/dist/css/bootstrap.min.css';
  
+.App{
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+  max-width: 700px;
 }
-td{
-  font-family: 'sans-serrif';
+
+header{
+  justify-content: space-between;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px
+}
+
+
+th {
+
   margin: auto;
   height: auto;
-  text-align-last: center;
-  padding-inline-end: 5rem;
+  color:black;
+  font-weight: bold;
+  
+  }
+ td{
+  margin: 0.5rem 0;
+  padding:0.2-5rem;
+  column-width: 300px;
+  box-sizing: content-box;
+  font-family: 'sans-serrif';
+  text-align: left;
   font-size: 20px
 }
 
 body{
   background-color: white;
-}
+  
+} 
 html{
-  font-size: 15px;
-  margin-top: 0;
-  margin-bottom: 100px;
-  margin-right: 150px;
-  margin-left: 0px;
+  table-layout: auto;
+  font-size: 20px;
+  
   text-align: left;
   
   
 }
 
-.title {
-  text-align: center;
-}
 
 .searchform{
   display: block;
@@ -49,20 +53,22 @@ html{
 }
 .input{
   outline: 0;
-  border: 0;
+  border: none;
   width: 350px;
   height: 35px;
-  padding: 0 0.5rem;
+  padding: 0.5rem;
   font-size: 15px;
   font-weight: bold;
 }
 .button {
-  outline: none;
-  border: none;
-  height: 35px;
-  padding: 0 0.5rem;
+  margin-inline-start: 20%;
   color: white;
-  font-size: 15px;
+  font-size: 10px;
+  padding: 10px 24px;
+  border-radius: 2px;
+  transition: 0.4s;
+  width:250px;
+
 }
 
 .delete-btn {
@@ -73,5 +79,5 @@ html{
   padding: 10px;
   color: white;
   font-size: 15px;
-} 
-
+}  
+   

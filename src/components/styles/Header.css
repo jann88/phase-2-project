@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 .header-content {
+    box-sizing: border-box;
     text-align: center;
     margin-top: 10%;
 }

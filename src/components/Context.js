@@ -25,10 +25,10 @@ function Context({ books, setBooks }) {
 
           
             <tr>
-              <th>Title</th>
-              <th>Author</th>
-              <th>Publication</th>
-              <th>Edition</th>
+              <th scope="col">Title</th>
+              <th scope="col">Author</th>
+              <th scope="col">Publication</th>
+              <th scope="col">Edition</th>
 
             </tr>
           

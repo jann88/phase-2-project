@@ -46,8 +46,8 @@ import React, { Fragment,useState} from "react";
 
 
             
-             <button onClick={markRead} type="button"  className="btn btn-success btn-xsm" >{isRead ? "READ": "UNREAD"}</button>
-            <button id={id} onClick={deleteElem} type="button" className=" btn-danger btn-xsm">🗑</button>
+             <button onClick={markRead} type="button display in-line padding:20px"  className= "btn-success btn-xxsm" >{isRead ? "READ": "UNREAD"}</button>
+            <button id={id} onClick={deleteElem} type="button display in-line padding: 0 20px" className=" btn-danger btn-xsm">🗑</button>
             
            
         
